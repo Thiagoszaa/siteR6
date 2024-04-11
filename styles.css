@@ -1,0 +1,88 @@
+body {
+    background-image: url(r6b.jpeg);
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    background-position: center;
+    padding: 0 50px;
+    margin: 0;
+    color: #fff; /* Mudança: melhorar contraste de texto */
+}
+
+.header {
+    background-color: #2F4F4F;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #FF8C00;
+    font-size: large;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+.header a:hover {
+    color: #FFA500;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap; /* Mudança: para layout responsivo */
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px; 
+}
+
+.section {
+    background-color: #2F4F4F;
+    width: calc(50% - 20px); /* Mudança: ajuste para layout responsivo */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Mudança: para evitar que a largura exceda 50% */
+}
+
+.section h2 {
+    color: #FF8C00;
+}
+
+footer {
+    background-color: #1e2626;
+    padding: 20px 0;
+    border-top: 2px solid #FF8C00;
+    margin-top: 50px;
+    margin-bottom: 20px; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.copy {
+    color: #FF8C00;
+    font-size: 14px;
+}
